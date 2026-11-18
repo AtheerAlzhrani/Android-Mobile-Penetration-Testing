@@ -142,10 +142,4 @@ The static analysis identified several security-relevant configurations and impl
 
 These observations are preliminary and have not yet been confirmed as exploitable vulnerabilities.
 
-## 8. Next Steps
 
-- Complete the remaining source-code review.
-- Investigate deep-link preference handling.
-- Perform dynamic analysis using Burp Suite.
-- Inspect WebView behavior and URL validation.
-- Validate findings and document reproducible evidence.
