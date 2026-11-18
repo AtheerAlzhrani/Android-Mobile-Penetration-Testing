@@ -129,11 +129,11 @@ Screenshots and supporting evidence will be added during the assessment.
 
 - <img width="1177" height="147" alt="image" src="https://github.com/user-attachments/assets/af6d118b-8b90-4992-b5c0-1e98901e20fe" />
 
-- [ ] <img width="1197" height="995" alt="image" src="https://github.com/user-attachments/assets/8312e0fa-199b-427c-98e9-52bbe4302ddd" />
+-  <img width="1197" height="995" alt="image" src="https://github.com/user-attachments/assets/8312e0fa-199b-427c-98e9-52bbe4302ddd" />
 
-- [ ] <img width="975" height="245" alt="image" src="https://github.com/user-attachments/assets/bede474d-171f-4db2-b03a-c32c7bb45338" />
+-  <img width="975" height="245" alt="image" src="https://github.com/user-attachments/assets/bede474d-171f-4db2-b03a-c32c7bb45338" />
 
-- [ ] <img width="865" height="310" alt="image" src="https://github.com/user-attachments/assets/85e0f9ed-3837-46bf-9ba5-7cf1efd39b94" />
+-  <img width="865" height="310" alt="image" src="https://github.com/user-attachments/assets/85e0f9ed-3837-46bf-9ba5-7cf1efd39b94" />
 
 
 ## 7. Conclusion
