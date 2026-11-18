@@ -1,15 +1,5 @@
 # Static Analysis Report – TrainingApp
 
-## 1. Assessment Overview
-
-| Item | Details |
-|---|---|
-| Application | TrainingApp |
-| Package Name | `com.ecardsandkeys` |
-| Assessment Type | Android Static Analysis |
-| Analysis Tool | JADX |
-| Status | Completed – Preliminary Review |
-
 ## 2. Objectives
 
 - Inspect the Android application structure and source code.
