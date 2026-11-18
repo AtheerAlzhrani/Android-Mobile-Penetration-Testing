@@ -6,7 +6,6 @@
 |---|---|
 | Application | TrainingApp |
 | Package Name | `com.ecardsandkeys` |
-| Version | 1.0 |
 | Assessment Type | Android Static Analysis |
 | Analysis Tool | JADX |
 | Status | Completed – Preliminary Review |
