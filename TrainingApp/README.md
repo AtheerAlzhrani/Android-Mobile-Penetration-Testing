@@ -10,13 +10,10 @@ A practical Android application security testing project focused on identifying 
 - APKTool
 - Burp Suite
 - Frida
-- MobSF
+
 
 ## Testing Methodology
 - Environment Setup
 - Static Analysis
 - Dynamic Analysis
-- Network Security Testing
-- Authentication & Authorization Testing
-- Vulnerability Assessment
 
