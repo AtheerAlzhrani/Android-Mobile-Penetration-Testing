@@ -1,16 +1,5 @@
 # Static Analysis Report – TrainingApp
 
-## 1. Assessment Overview
-
-| Item | Details |
-|---|---|
-| Application | TrainingApp |
-| Package Name | `com.ecardsandkeys` |
-| Version | 1.0 |
-| Assessment Type | Android Static Analysis |
-| Analysis Tool | JADX |
-| Status | Completed – Preliminary Review |
-
 ## 2. Objectives
 
 - Inspect the Android application structure and source code.
@@ -138,11 +127,14 @@ The minimum and target SDK versions should be reviewed against current Android s
 
 Screenshots and supporting evidence will be added during the assessment.
 
-- [ ] AndroidManifest.xml
-- [ ] JADX source code review
-- [ ] WebView implementation
-- [ ] Deep-link configuration
-- [ ] Dynamic testing results
+- <img width="1177" height="147" alt="image" src="https://github.com/user-attachments/assets/af6d118b-8b90-4992-b5c0-1e98901e20fe" />
+
+-  <img width="1197" height="995" alt="image" src="https://github.com/user-attachments/assets/8312e0fa-199b-427c-98e9-52bbe4302ddd" />
+
+-  <img width="975" height="245" alt="image" src="https://github.com/user-attachments/assets/bede474d-171f-4db2-b03a-c32c7bb45338" />
+
+-  <img width="865" height="310" alt="image" src="https://github.com/user-attachments/assets/85e0f9ed-3837-46bf-9ba5-7cf1efd39b94" />
+
 
 ## 7. Conclusion
 
@@ -150,10 +142,4 @@ The static analysis identified several security-relevant configurations and impl
 
 These observations are preliminary and have not yet been confirmed as exploitable vulnerabilities.
 
-## 8. Next Steps
 
-- Complete the remaining source-code review.
-- Investigate deep-link preference handling.
-- Perform dynamic analysis using Burp Suite.
-- Inspect WebView behavior and URL validation.
-- Validate findings and document reproducible evidence.
