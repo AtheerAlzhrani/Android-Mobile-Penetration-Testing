@@ -21,11 +21,11 @@
 - Application launches successfully.
 - Registration request was captured in Burp Suite.
 - No corresponding server response was observed.
+- Frida successfully instrumented the application.
+- Java runtime availability was confirmed.
 - Login and registration testing remain incomplete due to an application error.
 
-## Status
-**In Progress** — Further investigation of network connectivity and runtime behavior is required.
-
+  
 ## Evidence
 - <img width="737" height="362" alt="image" src="https://github.com/user-attachments/assets/23683c3d-c95c-4487-b456-d4ba7ba83b87" />
 
