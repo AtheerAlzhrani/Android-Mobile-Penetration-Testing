@@ -16,14 +16,6 @@
 - Successfully launched TrainingApp through Frida.
 - Established a Frida instrumentation session.
 - Verified Java runtime availability (`Java.available = true`).
-  
-## Results
-- Application launches successfully.
-- Registration request was captured in Burp Suite.
-- No corresponding server response was observed.
-- Frida successfully instrumented the application.
-- Java runtime availability was confirmed.
-- Login and registration testing remain incomplete due to an application error.
 
   
 ## Evidence
@@ -36,3 +28,10 @@
 
 -  <img width="767" height="472" alt="image" src="https://github.com/user-attachments/assets/ed08c2ad-9fa2-405e-9873-658b0e4da858" />
 
+## Results
+- Application launches successfully.
+- Registration request was captured in Burp Suite.
+- No corresponding server response was observed.
+- Frida successfully instrumented the application.
+- Java runtime availability was confirmed.
+- Login and registration testing remain incomplete due to an application error.
