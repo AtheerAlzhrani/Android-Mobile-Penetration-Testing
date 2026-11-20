@@ -1,13 +1,13 @@
 # Static Analysis Report – TrainingApp
 
-## 2. Objectives
+## 1. Objectives
 
 - Inspect the Android application structure and source code.
 - Review application permissions and manifest configurations.
 - Identify potential security weaknesses.
 - Examine WebView and deep-link implementation.
 
-## 3. Methodology
+## 2. Methodology
 
 Static analysis was performed by decompiling the APK using JADX and reviewing the following components:
 
@@ -15,9 +15,9 @@ Static analysis was performed by decompiling the APK using JADX and reviewing th
 - `WebviewActivity.java`
 - `activity_webview.xml`
 
-## 4. Security Observations
+## 3. Security Observations
 
-### 4.1 Application Debugging Enabled
+### 3.1 Application Debugging Enabled
 
 **Evidence:**
 ```xml
@@ -30,7 +30,7 @@ android:debuggable="true"
 
 **Recommendation:** Disable debugging in production builds.
 
-### 4.2 Application Backup Enabled
+### 3.2 Application Backup Enabled
 
 **Evidence:**
 ```xml
@@ -43,7 +43,7 @@ android:allowBackup="true"
 
 **Recommendation:** Review backup requirements and disable backups if they are not necessary.
 
-### 4.3 Cleartext Traffic Allowed
+### 3.3 Cleartext Traffic Allowed
 
 **Evidence:**
 ```xml
@@ -56,7 +56,7 @@ android:usesCleartextTraffic="true"
 
 **Recommendation:** Enforce HTTPS and disable cleartext traffic.
 
-### 4.4 WebView JavaScript Enabled
+### 3.4 WebView JavaScript Enabled
 
 **Evidence:**
 ```java
@@ -69,7 +69,7 @@ webSettings.setJavaScriptEnabled(true);
 
 **Recommendation:** Enable JavaScript only when required and restrict WebView content to trusted sources.
 
-### 4.5 Potentially Unvalidated WebView URLs
+### 3.5 Potentially Unvalidated WebView URLs
 
 **Evidence:**
 ```java
@@ -83,7 +83,7 @@ webview.loadUrl(url);
 
 **Recommendation:** Validate URL schemes, hosts, and destinations against a strict allowlist.
 
-### 4.6 SSL Certificate Error Handling
+### 3.6 SSL Certificate Error Handling
 
 **Evidence:**
 ```java
@@ -96,7 +96,7 @@ handler.proceed();
 
 **Recommendation:** Cancel SSL-error connections instead of allowing users to bypass certificate validation.
 
-### 4.7 Custom Deep Link
+### 3.7 Custom Deep Link
 
 **Evidence:**
 ```xml
@@ -111,7 +111,7 @@ handler.proceed();
 
 **Recommendation:** Validate incoming intents and restrict accepted parameters and destinations.
 
-## 5. Additional Configuration Observations
+## 4. Additional Configuration Observations
 
 | Configuration | Value |
 |---|---|
@@ -123,7 +123,7 @@ handler.proceed();
 
 The minimum and target SDK versions should be reviewed against current Android security requirements.
 
-## 6. Evidence
+## 5. Evidence
 
 Screenshots and supporting evidence will be added during the assessment.
 
@@ -136,7 +136,7 @@ Screenshots and supporting evidence will be added during the assessment.
 -  <img width="865" height="310" alt="image" src="https://github.com/user-attachments/assets/85e0f9ed-3837-46bf-9ba5-7cf1efd39b94" />
 
 
-## 7. Conclusion
+## 6. Conclusion
 
 The static analysis identified several security-relevant configurations and implementation patterns requiring further investigation.
 
