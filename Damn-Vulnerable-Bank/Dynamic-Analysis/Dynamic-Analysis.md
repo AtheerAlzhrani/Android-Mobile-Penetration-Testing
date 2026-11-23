@@ -96,9 +96,15 @@ Further investigation is required to establish the full security impact and seve
 
 ### Evidence
 
-- Screenshot: `deeplink-evidence.png`
-- Static source: `CurrencyRates.java`
-- Manifest: `AndroidManifest.xml`
+- <img width="407" height="855" alt="image" src="https://github.com/user-attachments/assets/ca0845a1-3131-4c87-bb73-c2e5c0d86a08" />
+
+- <img width="932" height="375" alt="image" src="https://github.com/user-attachments/assets/59946a68-5511-45be-b9a9-e8829ce578d8" />
+
+- <img width="935" height="462" alt="image" src="https://github.com/user-attachments/assets/98e59cb3-9287-440a-a72e-78e082f9522c" />
+- <img width="938" height="402" alt="Screenshot 2026-11-22 132219" src="https://github.com/user-attachments/assets/728a7a13-ce7f-458c-a5b0-6dcc0d66b4c4" />
+- <img width="942" height="606" alt="Screenshot 2026-11-22 132136" src="https://github.com/user-attachments/assets/a7da5cda-668f-41ce-9713-9526aa098f9a" />
+
+
 
 ## 7. Current Findings and Observations
 
@@ -112,16 +118,9 @@ Further investigation is required to establish the full security impact and seve
 | WebView Deep Link | External URL loading confirmed | Confirmed |
 | WebView Security | Additional security checks required | In Progress |
 
-## 8. Remaining Activities
 
-- Investigate exported activities and their security implications.
-- Continue REST API security testing.
-- Investigate sensitive information disclosure.
-- Examine WebView security settings and potential attack scenarios.
-- Validate potential findings and assess their severity.
-- Collect additional screenshots and supporting evidence.
 
-## 9. Conclusion
+## 8. Conclusion
 
 Dynamic analysis has provided insight into the application's runtime behavior, network communication, API functionality, custom encryption implementation, and WebView deep-link handling.
 
