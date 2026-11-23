@@ -116,7 +116,7 @@ Further investigation is required to establish the full security impact and seve
 | Custom Encryption | Base64 and XOR implementation identified | Completed |
 | Beneficiary Management | Multiple accounts submitted | Tested |
 | WebView Deep Link | External URL loading confirmed | Confirmed |
-| WebView Security | Additional security checks required | In Progress |
+
 
 
 
